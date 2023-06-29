@@ -1,0 +1,482 @@
+
+@font-face {
+    font-family: "poppis";
+    src: url("../fonts/Poppins-Light.ttf");
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppis';
+}
+body{
+    background-color: rgb(0, 0, 4) !important;
+    height: 100vh;
+    width: 100%;
+}
+.conteiner{
+    /* */
+   
+    background-color: #000 !important;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 90vh;
+    width: 100%;
+}
+nav.navbar{
+    border-bottom: 1px solid #006528;
+    padding: 20px 0 0 !important;
+     
+}
+nav.navbar .menu{
+    /* padding: 8px 0; */
+
+}
+.menu a.logo{
+    font-size: 1.5em;
+    padding: 0px 0px 27px  !important;
+}
+
+.menu a.logo h2{
+    color: #fff;
+    font-size: 2rem;
+    /* text-shadow: 0px 3px 4px #fff; */
+}
+.menu a.logo h2 span{
+    /* text-shadow: 0px 2x 4px red !important; */
+    text-shadow: 0px 3px 4px #006528;
+}       
+
+/* ===================Nav links================ */
+.navmenu ul li {
+    margin: 0 10px;
+
+}
+.navmenu ul li a{
+    padding: 0px 0px 30px;
+    color: #fff;
+  
+}
+.navmenu ul li a:hover{
+    border-bottom: 1px solid #006528;
+}
+section.section {
+    height: 400px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+section.section .descri-top{
+    color: #fff;
+    font-size: 2rem;
+}
+.section .top{
+    text-align: center;
+}
+.section .top .btn{
+    color: #fff;
+    background-color: #006528;
+    border-radius: 30px;
+    padding: 16px;
+    margin: 10px;
+}
+main{
+    width: 96%;
+    margin: 0 auto;
+}
+.destaques{
+    width: 100%;
+    padding: 10px 0;
+    position: relative;
+    margin-bottom: 100px;
+}
+/*=================================== butoes de destaque =================================================== */
+.butoes-destaque{
+    display: flex;
+
+}
+.butoes-destaque p{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fffe;
+    margin-top: 12px;
+}
+.buttao{
+    padding: 10px;
+    border: 1px solid #006528;
+    border-radius: 30px;
+    color: #fff;
+    margin: 10px;
+    background:none;
+    cursor: pointer;
+}
+.active{
+    background-color: #006528;
+    border: 1px solid #006528;
+}
+.buttao:hover{
+    background-color: #006528;
+    transition: 0.4s;
+}
+/* ========================card======================== */
+.destaquesMoveis{
+    width: 100%;
+    display: flex;
+    flex-flow:row;
+    flex-wrap: wrap;
+    /* align-items: center;
+    justify-content: center; */
+    overflow: hidden;
+     
+}
+.card-ds{
+    background-color:#006528;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border-radius: 4px;
+    margin: 10px ;
+    position: relative;
+    box-shadow: 0px 0px 2px 1px #05db5b6e;
+    padding: 0;
+    cursor: pointer;
+    overflow: hidden;
+}
+.descricao{
+    position: absolute;
+    bottom: -190px;
+    background-color: #006528c0;
+    height: 160px;
+    color: #fff;
+    font-size: 12px;
+    padding: 10px;
+    border-radius: 4px;
+}
+
+.card-ds:hover .descricao{
+    bottom: 0px;
+    transition: 0.4s;
+}
+/* ====================================Pesquisa de filmes================================== */
+form{
+    width: 90%;
+    margin: 0 auto;
+}
+form label{
+    color: #fff;
+    margin-left: 12px;
+}
+form .pesquisa{
+    position: relative;
+}
+form .pesquisa i{
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    /* color: #eee; */
+}
+form .pesquisa input{
+    background: none !important;;
+    border: none !important;
+    box-shadow: none !important;
+    border-radius: none !important;
+    /* border-bottom: 1px solid #006528; */
+    border-bottom: 1px solid #006528 !important;
+}
+form .pesquisa input:focus{
+    /* box-shadow: 0px 0px 4px #eee !important; */
+    /* border-bottom: 1px solid #006528 !important; */
+}
+
+form .categoria select{
+    border-radius: 0 !important;
+    background: none !important;;
+    border: none !important;
+    box-shadow: none !important;
+    border-bottom: 2px solid #006528 !important;
+    overflow-y: scroll;
+    /* border-bottom: 1px solid #006528; */
+}
+ 
+ /* ======================================================Detalhe do filme============================ */
+ .detalhes-filme{
+    display: flex;
+    flex-wrap: wrap;
+    width: 82%;
+    margin: 0 auto;   
+    padding: 10px 0;
+    margin-top: 20px;
+ }
+ .detalhes-filme .card-img{
+    height: 340px;
+    width: 250px;
+    border-radius: 30px;
+    box-shadow: 0px 0px 6px #05db5b6e;
+    margin: 0px 10px 50px 0;
+ }
+ .detalhes-filme .card-img img{
+    height: 340px;
+    width: 100%;
+    border-radius: 30px;
+ }
+ .detalhes-filme .card-detalhes{
+    color: #eee;
+ }
+ .detalhes-filme .card-detalhes h3{
+    text-transform: capitalize;
+    letter-spacing: 2px;
+    color: #eee;
+ }
+ .detalhes-filme .card-detalhes p{
+    font-size: 12px;
+    color: #dadada;
+ }
+ .detalhes-filme .card-detalhes p.see{
+    letter-spacing: 4px;
+ }
+ .detalhes-filme .card-detalhes p.stars{
+    word-spacing: 10px;
+ }
+  .detalhes-filme .card-detalhes p .star{
+    letter-spacing: 3px;
+  }
+  .detalhes-filme .card-detalhes p .trailer .btn{
+    color: #dfdfdf;
+  }
+  .detalhes-filme .card-detalhes p .trailer .btn span{
+        margin-right: 10px;
+        /* font-size: 12px; */
+  }
+  .detalhes-filme .card-detalhes p .trailer .btn i{
+    font-size: 16px;
+  }
+  .detalhes-filme .card-detalhes p .trailer .btn:hover{
+        transform: scale(1.1);
+        color: #006528;
+        transition: 0.4s;
+  }
+  .detalhes-filme .card-detalhes p.authors{
+        display: flex;
+  }
+  .detalhes-filme .card-detalhes p.authors span{
+    word-spacing: 4px;
+    margin-right: 10px;
+  }
+  .detalhes-filme .card-detalhes p.authors span img{
+    height: 40px;
+    border-radius: 10px;
+    border: 2px solid #006528;
+  }
+  .detalhes-filme .card-detalhes p.text-describe{
+    letter-spacing: 1px;
+  }
+  .detalhes-filme .card-detalhes .buttoes{
+    display:  flex;
+  }
+  .detalhes-filme .card-detalhes .buttoes .butoes{
+    border-radius: 30px; 
+    margin: 10px; 
+    background-color: #eeeeee1a;
+    /* background-color: #3b3b3b8a; */
+    padding: 12px 16px;
+    word-spacing: 4px;
+    cursor: pointer;
+    font-weight: bold;
+    letter-spacing: 2px;
+  }
+  .detalhes-filme .card-detalhes .buttoes .butoes:hover{
+    box-shadow: 0px 0px 8px #006528;
+    transition: 0.4s;
+  }
+  .show-filme{
+    width: 82%;
+    margin: 0 auto;
+    height: 600px;
+    padding: 0 14px;
+  }
+  .video-show{
+    background-color: #006528;
+    border-radius: 30px;
+    height: 500px;
+  }
+
+  /* ============================================comments================================== */
+  .moveis-comments{
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    color: #eee;
+    margin-bottom: 100px;
+  }
+  .opinion-moveis h3{
+    color: #eee;
+    text-transform: capitalize;
+    font-weight: 500;
+  }
+  .opinion-moveis h4{
+    color: #d4d4d4;
+    text-transform: capitalize;
+    font-weight: 400;    
+  }
+  .opinion-moveis p{
+    font-size: 12px;
+  }
+  .opinion-moveis p.prodution-moveis{
+    color: #d4d4d4;
+    word-spacing: 1px;
+    font-size: 13px;
+  }
+  .opinion-moveis .opinion-describe{
+    color: #d4d4d4;
+    text-align: justify;
+  }
+  /* ===============================textarea comments =============================== */
+  .input-comments{
+    margin-bottom: 10px;
+  }
+  .comments textarea{
+    border: none;
+    background-color: #eeeeee1a;
+    color: #eee !important;
+    padding: 10px 10px 0px 12px;
+    border-radius: 14px;
+    font-size: 12px;
+  }
+  .comments textarea:focus{
+    background-color: #eeeeee1a;
+    box-shadow: none;
+  }
+  .comments .btn-submit{
+    /* background-color: #006528; */
+    background-color: #eeeeee1a;
+    margin: 10px 0;
+    color: #eee;
+    border-radius: 30px !important;
+    /* word-spacing: 4px; */
+    display: flex;
+    align-items: center;
+    font-weight: 500;
+    
+  }
+  .comments .btn-submit i{
+    margin: 0 5px;
+  }
+  .comments .btn-submit span{
+    margin: 0 5px;
+  }
+ 
+  /* =========================comentarios ======================================== */
+  .comment-describs{
+    /* background-color: #006528; */
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+  }
+  .img-perfil{
+    margin-right: 10px;
+  }
+  .img-perfil img{
+    height: 60px;
+    border-radius: 20px;
+  }
+  .text-perfil{
+    margin: 10px;
+    font-size: 12px;
+  }
+  .text-perfil .name-user{
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .text-perfil .name-user p{
+    word-spacing: 6px;
+    padding-top: 10px;
+  }
+  .text-perfil .name-user p .user{
+    background-color: #eeeeee1a;
+    padding: 6px 10px;
+    border-radius: 30px;
+    margin: 0 10px;
+    font-weight: 600;
+    letter-spacing: 1px;
+  }
+  .text-perfil .name-user p .user-name{
+    font-size: 16px;
+    color: #eee;
+    font-weight: 500;
+  }
+  .text-perfil .name-user p .time-posts{
+    color: #eeeeee75;
+  }
+  /* ===================coments user======================== */
+  .comments-user p{
+    font-size: 12px;
+    word-spacing: 1px;
+  }
+
+  .more-comments{
+    display:  flex;
+    width: 100%;
+    margin-top: 10px;
+  }
+  .more-comments .butoes{
+    width: 100%;
+    border-radius: 30px; 
+    margin: 10px; 
+    background-color: #eeeeee1a;
+    padding: 10px 14px;
+    word-spacing: 4px;
+    cursor: pointer;
+    font-weight: 500;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+  }
+  .more-comments .butoes span{
+    text-align: center;
+    margin: 0 10px 0;
+  }
+  .more-comments .butoes:hover{
+    box-shadow: 0px 0px 8px #00652857;
+    transition: 0.4s;
+  }
+
+/* ========================================footer================================================ */
+footer{
+    width: 100%;
+    color: #fff;
+}
+footer p.h5{
+    color: #eee;
+    /* font-size: 16px; */
+    margin-bottom: 10px;
+}
+.footer .listas{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+.lista-1 ul{
+    list-style: none;
+   
+}
+.lista-1 ul li a{
+    color: #eee;
+    font-size: 12px;
+    margin: 4px 0;
+}
+.lista-1 ul li a.rede-social{
+    padding: 14px 10px;
+    border: 1px solid #006528;
+    background-color: #006528;
+    border-radius: 30px;
+  
+}
+.lista-1 ul li a.titulo{
+    font-size: 18px;
+    margin: 10px 0;
+}
