@@ -1,13 +1,43 @@
-# Chester-Macoda-desafio-estagio-dev-php
+💼 Chester Macoda – PHP Dev Internship Challenge
+This project was developed as part of a PHP development internship challenge, showcasing my skills in building dynamic, responsive, and fully functional web applications using a modern tech stack.
 
-As Tecnologias Usadas para a construção desta aplicação foram: PHP 8.1, HTML5 E CSS, BOOTSTRAP5,JQUERY,JAVASCRIPT,MYSQL
+🛠️ Technologies Used
+The following technologies and tools were used to build this application:
 
--Linguagem de Programação PHP ;
-- Criação do front end com Framework Bootstrap;
-- Html5 e Css3
--Linguagem Javascript e Biblioteca Jquery para a interatividade;
--Pacote DataTable para tabelas completas ;
--Linguagem Mysql para a criação do Banco de dados;
+PHP 8.1 – Backend logic and server-side scripting
 
-Pacotes de Dependências Instaladas são:
--Composer para a gestão de dependências;
+MySQL – Relational database for storing and managing application data
+
+HTML5 & CSS3 – Structure and custom styling
+
+Bootstrap 5 – Front-end framework for responsive design
+
+JavaScript & jQuery – Interactive client-side behavior
+
+DataTables – For creating feature-rich, searchable, and paginated tables
+
+Composer – Dependency and package management
+
+📦 Installed Dependencies
+Composer – Used to manage PHP dependencies and streamline project setup.
+
+
+
+✅ Key Features
+Dynamic front-end with Bootstrap and jQuery
+
+Interactive and searchable data tables with DataTables plugin
+
+Structured and secure backend using modern PHP practices
+
+Clean and modular codebase, easy to maintain and extend
+
+Fully responsive layout for all devices
+
+SQL dump included for quick setup
+
+
+👨‍💻 About the Developer
+I’m Chester Macoda, a passionate Full Stack Developer with experience in building robust web applications using PHP, JavaScript, Node.js, and other modern technologies.
+
+This project reflects my ability to create well-structured and functional systems — combining frontend usability with strong backend architecture.
